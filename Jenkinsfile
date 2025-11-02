@@ -4,9 +4,9 @@ pipeline{
 
 
 
- stage('Checkout') {
+stage('Checkout') {
             steps {
-                git 'https://github.com/yourusername/your-repo-name.git'
+                git branch:'master',url:'git@github.com:ris2002/End-To-End-MLops-Project.git'
             }
         }
 
