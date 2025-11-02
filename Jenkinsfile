@@ -1,6 +1,18 @@
 pipeline{
     agent any
     stages{
+
+
+
+ stage('Checkout') {
+            steps {
+                git 'https://github.com/yourusername/your-repo-name.git'
+            }
+        }
+
+
+
+
         stage('Setup'){
            steps{
                sh 'python3 -m venv venv'
