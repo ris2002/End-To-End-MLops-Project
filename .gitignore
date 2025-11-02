@@ -1,0 +1,17 @@
+olist/
+.zen/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# MLflow logs and runs
+mlruns/
+
+# Ignore any compiled Python files in src, steps, pipelines
+src/__pycache__/
+steps/__pycache__/
+pipelines/__pycache__/
+run_deployment.py
+run_pipeline.py
+__init__.py
